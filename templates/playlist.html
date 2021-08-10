@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} User Playlists {% endblock %}</h1>
+    <form method = "POST">
+        <input type = "text" name = "userID">
+        <input type = "submit">
+    </form>
+
+    
+{% endblock %}
